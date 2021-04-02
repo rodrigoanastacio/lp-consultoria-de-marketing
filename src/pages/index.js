@@ -3,6 +3,8 @@ import Container from '../components/Container'
 import Hero from '../components/Hero'
 import ShapeDivider from '../components/ShapeDivider'
 
+import styles from '../styles/Home.module.scss'
+
 const Index = () => {
   return (
     <>
@@ -13,10 +15,10 @@ const Index = () => {
       </Head>
       <Hero>
         <Container>
-          <figure>
+          <figure className={styles.featuredImage}>
             <img src="dayane-silva-consultoria-de-marketing-digital.png" alt="Imagem que ilustra a consultora Dayane Silva"/>
           </figure>
-          <div>
+          <div className={styles.headlines}>
             <h1>Você acredita que pode construir uma marca incrível, mas se sente perdida no processo das estratégias?</h1>
             <h2>Descubra como uma consultoria direcionada para o seu negócio, pode ajudar a sua marca a se destacar!</h2>
           </div>
