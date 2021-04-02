@@ -1,0 +1,17 @@
+@import './variables';
+@import './breakpoint';
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  max-width: $global-max-width;
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include breakpoint(medium-only) {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

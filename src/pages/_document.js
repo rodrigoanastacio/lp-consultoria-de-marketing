@@ -5,6 +5,9 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet" />
+
           <script
             dangerouslySetInnerHTML={{
               __html: `!function(f,b,e,v,n,t,s)
