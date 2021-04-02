@@ -1,0 +1,15 @@
+.shape {
+  position: absolute;
+  width: 100%;
+  bottom: -1px;
+  left: 0;
+  transform: rotate(180deg);
+
+  svg {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}

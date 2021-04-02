@@ -1,9 +1,11 @@
+import Hero from '../components/Hero'
+import ShapeDivider from '../components/ShapeDivider'
+
 const Index = () => {
   return (
-    <header>
-      <h1>Hello</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum iusto delectus aliquid alias incidunt obcaecati maxime odio in facere nam.</p>
-    </header>
+    <Hero>
+      <ShapeDivider/>
+    </Hero>
   )
 }
 
