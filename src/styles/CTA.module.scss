@@ -1,3 +1,5 @@
+@import './breakpoint';
+
 .cta {
   display: block;
   width: 100%;
@@ -11,4 +13,8 @@
   padding: 20px 40px;
   text-decoration: none;
   text-align: center;
+
+  @include breakpoint(medium-only) {
+    padding: 15px 20px;
+  }
 }
