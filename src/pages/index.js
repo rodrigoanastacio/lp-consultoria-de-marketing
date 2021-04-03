@@ -4,6 +4,7 @@ import Container from '../components/Container'
 import Hero from '../components/Hero'
 import CTA from '../components/CTA'
 import ShapeDivider from '../components/ShapeDivider'
+import TextImage from '../components/TextImage'
 
 import styles from '../styles/Home.module.scss'
 
@@ -60,6 +61,8 @@ const Index = () => {
         </Container>
         <ShapeDivider/>
       </Hero>
+
+      <TextImage/>
     </>
   )
 }
